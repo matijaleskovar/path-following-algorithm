@@ -1,2 +1,2 @@
 # PathFollowingAlgorithm
-Pathfind algorithm for ASCII maps
+Path following algorithm for ASCII maps
