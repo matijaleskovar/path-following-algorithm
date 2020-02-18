@@ -10,9 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static PathFollowingAlgorithm.Helpers.Enums;
 using static PathFollowingAlgorithm.Helpers.PathFollowingUtilities;
-using static PathFollowingAlgorithm.Helpers.Constants;
 
 namespace PathFollowingAlgorithm
 {
@@ -28,7 +26,6 @@ namespace PathFollowingAlgorithm
         //Events
         private void btnAddASCIIMap_Click(object sender, EventArgs e)
         {
-            int size = -1;
             Position currentPosition = new Position();
 
             DialogResult result = openFileDialog.ShowDialog();
@@ -40,7 +37,6 @@ namespace PathFollowingAlgorithm
                 try
                 {
                     _fileString = File.ReadAllText(file);
-                    size = _fileString.Length;
                 }
                 catch (IOException)
                 {
