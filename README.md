@@ -13,7 +13,7 @@ Windows Forms application for path following algorithm for ASCII maps
 
 ## Application usage
 1. Click button "Add ASCII map"
-2. Choose ASCII map (.txt) file from your drive
+2. Select ASCII map (.txt) file from your drive
 3. Click button "Process map"
 4. Result is shown in "Path" and "Letters" textboxes
 
