@@ -11,7 +11,7 @@ Windows Forms application for path following algorithm for ASCII maps
 2. Build solution
 3. Run application
 
-## Application usage
+## Application use
 1. Click button "Add ASCII map"
 2. Select ASCII map (.txt) file from your drive
 3. Click button "Process map"
@@ -36,5 +36,5 @@ For the given input, expected result should be:
 Path: ```@---+B||E--+|E|+--F--+|C|||A--|-----K|||+--E--Ex```  
 Letters: ```BEEFCAKE```
 
-## Unit Tests
+## Unit tests
 Basic unit tests are included in solution. They can be run from Test Explorer in Visual Studio.
