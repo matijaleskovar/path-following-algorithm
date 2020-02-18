@@ -32,8 +32,8 @@ K-----|--A
 ```
 Symbol "@" represents starting point of the path, symbol "x" represents end of the path. Idea is to follow path from start to end and during that save chars which are on the path and also save chars which are uppercase letters (letters are only picked up at first run, if letter is crossed second time it won't be saved). Symbol "+" represents change of direction, but uppercase letter can also change direction of the path.
 
-For the given input, expected result should be:
-Path:```@---+B||E--+|E|+--F--+|C|||A--|-----K|||+--E--Ex```
+For the given input, expected result should be:  
+Path:```@---+B||E--+|E|+--F--+|C|||A--|-----K|||+--E--Ex```  
 Letters:```BEEFCAKE```
 
 ## Unit Tests
