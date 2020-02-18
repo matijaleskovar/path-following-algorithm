@@ -1,4 +1,4 @@
-# PathFollowingAlgorithm
+# Path Following Algorithm
 Windows Forms application for path following algorithm for ASCII maps
 
 ## Requirements
