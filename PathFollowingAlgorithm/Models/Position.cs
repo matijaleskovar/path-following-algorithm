@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static PathFollowingAlgorithm.Enum.Enumeration;
+using static PathFollowingAlgorithm.Helpers.Enums;
 
-namespace PathFollowingAlgorithm.Model
+namespace PathFollowingAlgorithm.Models
 {
     public class Position
     {

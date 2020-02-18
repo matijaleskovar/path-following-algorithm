@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PathFollowingAlgorithm.Enum
+namespace PathFollowingAlgorithm.Helpers
 {
-    public class Enumeration
+    public class Enums
     {
         public enum Direction
         {

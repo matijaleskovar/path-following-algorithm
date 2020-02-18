@@ -46,16 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants\CharConstants.cs" />
-    <Compile Include="Enum\Enumeration.cs" />
+    <Compile Include="Helpers\Constants.cs" />
+    <Compile Include="Helpers\Enums.cs" />
+    <Compile Include="Helpers\PathFollowingUtilities.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\PathResult.cs" />
-    <Compile Include="Model\Position.cs" />
+    <Compile Include="Models\PathResult.cs" />
+    <Compile Include="Models\Position.cs" />
+    <Compile Include="PathSolverAlgorithm.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">
