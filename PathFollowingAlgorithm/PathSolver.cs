@@ -10,7 +10,7 @@ using static PathFollowingAlgorithm.Helpers.Constants;
 
 namespace PathFollowingAlgorithm
 {
-    public class PathSolverAlgorithm
+    public class PathSolver
     {
         public PathResult FollowPath(char[][] char2DArray)
         {

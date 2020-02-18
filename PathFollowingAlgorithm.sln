@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathFollowingAlgorithm", "PathFollowingAlgorithm\PathFollowingAlgorithm.csproj", "{D289F3F2-42B0-45E9-B52B-8AC4B8354CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathFollowingAlgorithmTest", "PathFollowingAlgorithmTest\PathFollowingAlgorithmTest.csproj", "{CBE005E1-F9CA-4898-849D-C77AD660B4AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathFollowingAlgorithmUnitTest", "PathFollowingAlgorithmTest\PathFollowingAlgorithmUnitTest.csproj", "{CBE005E1-F9CA-4898-849D-C77AD660B4AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,7 +5,7 @@ using PathFollowingAlgorithm.Models;
 using System.Linq;
 using static PathFollowingAlgorithm.Helpers.Enums;
 
-namespace PathFollowingAlgorithmTest
+namespace PathFollowingAlgorithmUnitTest
 {
     [TestClass]
     public class PathSolverAlgorithmTest
@@ -13,7 +13,7 @@ namespace PathFollowingAlgorithmTest
         [TestMethod]
         public void TestFollowPathMethod()
         {
-            PathSolverAlgorithm psa = new PathSolverAlgorithm();
+            PathSolver psa = new PathSolver();
             PathResult expectedResult = new PathResult(){ Path = @"@---+B||E--+|E|+--F--+|C|||A--|-----K|||+--E--Ex", Letters = "BEEFCAKE" };
 
             string testText = "  @---+" + Environment.NewLine
@@ -38,7 +38,7 @@ namespace PathFollowingAlgorithmTest
         [TestMethod]
         public void TestSetStartPositionMethod()
         {
-            PathSolverAlgorithm psa = new PathSolverAlgorithm();
+            PathSolver psa = new PathSolver();
             Position expectedResult = new Position() { X = 1, Y = 1, Value = '@' };
 
             string testText = "    A" + Environment.NewLine
@@ -57,7 +57,7 @@ namespace PathFollowingAlgorithmTest
         [TestMethod]
         public void TestFindDirectionMethod()
         {
-            PathSolverAlgorithm psa = new PathSolverAlgorithm();
+            PathSolver psa = new PathSolver();
             Direction expectedResult = Direction.Right;
             Position currentPosition = new Position() { X = 1, Y = 0, Value = '-', LastDirection = Direction.Right };
             Position lastPosition = new Position() { X = 0, Y = 0, Value = '@', LastDirection = Direction.NoDirection };
@@ -75,7 +75,7 @@ namespace PathFollowingAlgorithmTest
         [TestMethod]
         public void TestNextPositionMethod()
         {
-            PathSolverAlgorithm psa = new PathSolverAlgorithm();
+            PathSolver psa = new PathSolver();
             Position expectedResult = new Position() { X = 2, Y = 0 }; ;
             Direction direction = Direction.Right;
             Position currentPosition = new Position() { X = 1, Y = 0 };

@@ -42,19 +42,15 @@
             // lblChoosedASCIIMap
             // 
             this.lblChoosedASCIIMap.AutoSize = true;
-            this.lblChoosedASCIIMap.Location = new System.Drawing.Point(41, 111);
+            this.lblChoosedASCIIMap.Location = new System.Drawing.Point(12, 36);
             this.lblChoosedASCIIMap.Name = "lblChoosedASCIIMap";
-            this.lblChoosedASCIIMap.Size = new System.Drawing.Size(136, 17);
+            this.lblChoosedASCIIMap.Size = new System.Drawing.Size(135, 17);
             this.lblChoosedASCIIMap.TabIndex = 0;
-            this.lblChoosedASCIIMap.Text = "Choosed ASCII map:";
-            // 
-            // openFileDialog
-            // 
-            this.openFileDialog.FileName = "openFileDialog1";
+            this.lblChoosedASCIIMap.Text = "Selected ASCII map:";
             // 
             // btnAddASCIIMap
             // 
-            this.btnAddASCIIMap.Location = new System.Drawing.Point(464, 103);
+            this.btnAddASCIIMap.Location = new System.Drawing.Point(516, 30);
             this.btnAddASCIIMap.Name = "btnAddASCIIMap";
             this.btnAddASCIIMap.Size = new System.Drawing.Size(139, 34);
             this.btnAddASCIIMap.TabIndex = 1;
@@ -64,16 +60,16 @@
             // 
             // tbFilePath
             // 
-            this.tbFilePath.Location = new System.Drawing.Point(183, 109);
+            this.tbFilePath.Location = new System.Drawing.Point(153, 36);
             this.tbFilePath.Name = "tbFilePath";
-            this.tbFilePath.Size = new System.Drawing.Size(275, 22);
+            this.tbFilePath.Size = new System.Drawing.Size(357, 22);
             this.tbFilePath.TabIndex = 2;
             // 
             // btnProcessMap
             // 
-            this.btnProcessMap.Location = new System.Drawing.Point(199, 193);
+            this.btnProcessMap.Location = new System.Drawing.Point(516, 98);
             this.btnProcessMap.Name = "btnProcessMap";
-            this.btnProcessMap.Size = new System.Drawing.Size(223, 67);
+            this.btnProcessMap.Size = new System.Drawing.Size(139, 67);
             this.btnProcessMap.TabIndex = 3;
             this.btnProcessMap.Text = "Process map";
             this.btnProcessMap.UseVisualStyleBackColor = true;
@@ -82,7 +78,7 @@
             // lblPathName
             // 
             this.lblPathName.AutoSize = true;
-            this.lblPathName.Location = new System.Drawing.Point(57, 322);
+            this.lblPathName.Location = new System.Drawing.Point(106, 107);
             this.lblPathName.Name = "lblPathName";
             this.lblPathName.Size = new System.Drawing.Size(41, 17);
             this.lblPathName.TabIndex = 4;
@@ -91,7 +87,7 @@
             // lblLettersName
             // 
             this.lblLettersName.AutoSize = true;
-            this.lblLettersName.Location = new System.Drawing.Point(42, 354);
+            this.lblLettersName.Location = new System.Drawing.Point(94, 133);
             this.lblLettersName.Name = "lblLettersName";
             this.lblLettersName.Size = new System.Drawing.Size(56, 17);
             this.lblLettersName.TabIndex = 5;
@@ -99,14 +95,14 @@
             // 
             // tbPath
             // 
-            this.tbPath.Location = new System.Drawing.Point(104, 319);
+            this.tbPath.Location = new System.Drawing.Point(153, 107);
             this.tbPath.Name = "tbPath";
             this.tbPath.Size = new System.Drawing.Size(357, 22);
             this.tbPath.TabIndex = 8;
             // 
             // tbLetters
             // 
-            this.tbLetters.Location = new System.Drawing.Point(104, 351);
+            this.tbLetters.Location = new System.Drawing.Point(153, 133);
             this.tbLetters.Name = "tbLetters";
             this.tbLetters.Size = new System.Drawing.Size(357, 22);
             this.tbLetters.TabIndex = 9;
@@ -115,7 +111,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(664, 532);
+            this.ClientSize = new System.Drawing.Size(696, 228);
             this.Controls.Add(this.tbLetters);
             this.Controls.Add(this.tbPath);
             this.Controls.Add(this.lblLettersName);
@@ -125,7 +121,7 @@
             this.Controls.Add(this.btnAddASCIIMap);
             this.Controls.Add(this.lblChoosedASCIIMap);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Path Following";
             this.ResumeLayout(false);
             this.PerformLayout();
 

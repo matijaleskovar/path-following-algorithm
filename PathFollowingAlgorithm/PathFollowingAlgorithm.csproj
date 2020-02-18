@@ -57,7 +57,7 @@
     </Compile>
     <Compile Include="Models\PathResult.cs" />
     <Compile Include="Models\Position.cs" />
-    <Compile Include="PathSolverAlgorithm.cs" />
+    <Compile Include="PathSolver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">

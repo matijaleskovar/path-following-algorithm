@@ -28,6 +28,7 @@ namespace PathFollowingAlgorithm
         {
             Position currentPosition = new Position();
 
+            openFileDialog.Filter = "txt files (*.txt)|*.txt";
             DialogResult result = openFileDialog.ShowDialog();
 
             if (result == DialogResult.OK)
@@ -57,7 +58,7 @@ namespace PathFollowingAlgorithm
 
             char[][] char2DArray = ConvertStringTo2DCharArray(_fileString);
 
-            var result = new PathSolverAlgorithm().FollowPath(char2DArray);
+            var result = new PathSolver().FollowPath(char2DArray);
 
             if (result != null)
             {
